@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Font1|Font2|Font3">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-xxxxxxxxxx" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Prompt:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        .container
+        {
+            position: relative;
+            background-color: #FFFFFF;
+            border-radius: 30px;
+            margin:20px;
+            padding:20px;
+            box-shadow: 20px 20px 10px 0px #4E3E274D;
+            overflow: hidden;
+        }
+
+        .nav-bar {
+            display:flex;
+            justify-content: space-between;
+        }
+        #logo
+        {
+            height:100px;
+            width:100px;
+            padding-left:40px;
+            padding-top: 10px;
+        }
+        .right-nav-bar
+        {
+            display:flex;
+            justify-content: space-evenly;
+            width:50%;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .right-nav-bar>p{
+            font-family: Montserrat;
+            font-size: 18px;
+            line-height: 29px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+        .text-component 
+        {
+            margin-top:80px;
+            margin-left:40px;
+        }
+        .highlight 
+        {
+            color:#007B0C;
+        }
+        .text-comp{
+            width:50%;
+            font-family: Prompt;
+            font-weight: 400;
+            line-height: 36px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        #learn-more 
+        {
+            background-color: #007B0C;
+            color:#FFFFFF;
+            width: 120px;
+            height: 29px;
+            margin-top: 50px;
+            margin-left: 150px;
+            padding-left: 10px;
+            padding-right:10px;
+            font-family: Montserrat;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 29px;
+            letter-spacing: 0em;
+            text-align: center;
+            border-radius: 20px;
+        }
+        .circle 
+        {
+            position: absolute;
+            background-color: #007B0C;
+            border-radius:50%;
+            height:550px;
+            width:550px;
+            margin-left:850px;
+            padding-left: 50px;
+            margin-top:100px;
+            transform: rotate(100deg);
+            /* transform: translate(50%, 50%); */
+        }
+        .image 
+        {
+            position: absolute;
+            margin-left:700px;
+            margin-top:10px;
+        }
+        .heading-component 
+        {
+            font-family: Prompt;
+            font-weight: 500;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        .tp 
+        {
+            position:absolute;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width : 20px;
+            height:100px;
+            margin-top:14%;
+            margin-left:95%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+            <div class="circle">
+            </div>
+        <div class="tp">
+            <img src="./assets/bx_bxl-facebook.png" alt="facebook" class="src">
+            <img src="./assets/cib_instagram.png" alt="instagram" class="src">
+            <img src="./assets/bytesize_twitter.png" alt="twitter" class="src">
+        </div>
+        <div class="image">
+            <img src="./assets/sss.png" alt="cup image"/>
+        </div>
+        <div class="nav-bar">
+            <div class="left-nav-bar">
+                <img id="logo" src="./assets/simple-icons_starbucks.jpg" alt="starbucks image"/>
+            </div>
+            <div class="right-nav-bar">
+               <p>Home</p>
+               <p>Menu</p>
+               <p>What's new</p>
+               <p>Contact</p>
+            </div>
+        </div>
+        <div class="text-component">
+            <div class="heading-component">
+                <h1>IT’S NOT JUST COFFEE,<br/>IT’S <span class="highlight">STARBUCKS</span></h1>
+            </div>
+            <div class="text-comp">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo dolorem ea autem accusamus a maxime adipisci iusto quibusdam. Repudiandae, quo aspernatur cumque repellat corporis fugit aliquam quam officia quasi quos
+                   magnam expedita laborum fuga consequuntur magni</p>
+            </div>
+        </div>
+        <div class="learn-more">
+            <p id="learn-more">Learn More</p>
+        </div>
+       
+    </div>
+</body>
+</html>
